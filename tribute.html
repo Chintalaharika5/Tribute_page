@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Alia Bhatt</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #f5f5f5;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(45deg, #333333, #000000);
+            padding: 20px;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .img-container {
+            flex: 0 0 200px;
+            margin-right: 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .img-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .info-container {
+            max-width: 600px;
+        }
+
+        .info-container h1 {
+            font-size: 36px;
+            margin: 10px 0;
+        }
+
+        .info-container h3 {
+            font-size: 24px;
+            margin: 5px 0;
+        }
+
+        .info-container p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .timeline {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline h2 {
+            font-size: 24px;
+            margin: 0 0 20px;
+            color: #f5f5f5;
+        }
+
+        .timeline ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .timeline li {
+            padding: 10px 0;
+            position: relative;
+            color: #f5f5f5;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-left: 20px;
+        }
+
+        .timeline li:before {
+            content: "•";
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+            color: #e30022;
+        }
+
+        .famous-role {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #e30022;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .btn {
+            background-color: #e30022;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #c7001e;
+        }
+
+        .movies-list {
+            background-color: #444;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .movies-list h2 {
+            font-size: 24px;
+            margin: 0 0 20px;
+            color: #f5f5f5;
+        }
+
+        .movies-list ul {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        .movies-list li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: #f5f5f5;
+        }
+
+        .movies-list li:before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #e30022;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="img-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Alia_Bhatt%2C_Chennai_%28cropped_2%29.jpg" alt="Alia Bhatt">
+        </div>
+        <div class="info-container">
+            <h1>Alia Bhatt</h1>
+            <h3>The Bollywood Sensation</h3>
+            <p>Alia Bhatt, the versatile actress known for her stellar performances in Bollywood.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="timeline" id="life-info">
+            <h2>Timeline of Alia Bhatt's Life</h2>
+            <ul>
+                <li><strong>1993</strong>: Born on March 15th in Mumbai, Maharashtra, India.</li>
+                <li><strong>2012</strong>: Makes her debut in Karan Johar's film "Student of the Year".</li>
+                <li><strong>2014</strong>: Receives critical acclaim for her performance in "Highway".</li>
+                <li><strong>2016</strong>: Stars in "Udta Punjab" and wins numerous awards.</li>
+                <li><strong>2018</strong>: Shines in the critically acclaimed film "Raazi".</li>
+                <li><strong>2020</strong>: Launches her own production company, Eternal Sunshine Productions.</li>
+                <li><strong>2022</strong>: Wins the Filmfare Award for Best Actress for her role in "Gangubai Kathiawadi".</li>
+                <li><strong>2023</strong>: Expands her production company's portfolio with successful projects in film and digital media.</li>
+                <li><strong>2024</strong>: Announces collaboration with international filmmakers for upcoming projects.</li>
+            </ul>
+        </section>
+        
+        <section class="movies-list">
+            <h2>Alia Bhatt's Movies</h2>
+            <ul>
+                <li><strong>Student of the Year (2012)</strong></li>
+                <li><strong>Highway (2014)</strong></li>
+                <li><strong>2 States (2014)</strong></li>
+                <li><strong>Humpty Sharma Ki Dulhania (2014)</strong></li>
+                <li><strong>Udta Punjab (2016)</strong></li>
+                <li><strong>Dear Zindagi (2016)</strong></li>
+                <li><strong>Badrinath Ki Dulhania (2017)</strong></li>
+                <li><strong>Raazi (2018)</strong></li>
+                <li><strong>Gully Boy (2019)</strong></li>
+                <li><strong>Kalank (2019)</strong></li>
+                <li><strong>Student of the Year 2 (2019)</strong></li>
+                <li><strong>Sadak 2 (2020)</strong></li>
+                <li><strong>Gangubai Kathiawadi (2022)</strong></li>
+            </ul>
+        </section>
+        
+        <section class="famous-role">
+            <h2>Notable Performances</h2>
+            <p>Alia Bhatt is renowned for her remarkable performances in various films, including "Highway", "Udta Punjab", "Raazi", and "Gully Boy". Her ability to portray diverse characters with depth and authenticity has earned her widespread acclaim.</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p> <a href="https://en.wikipedia.org/wiki/Alia_Bhatt" target="_blank" class="wiki-link">Know more about Alia Bhatt.</a></p>
+    </footer>
+</body>
+
+</html>
